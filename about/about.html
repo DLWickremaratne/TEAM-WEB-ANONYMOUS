@@ -21,16 +21,16 @@
  margin: 0;
  line-height: 50px;
  text-align: center;
- /* Starting position */
+ 
  -moz-transform:translateX(100%);
  -webkit-transform:translateX(100%);	
  transform:translateX(100%);
- /* Apply animation to this element */	
+ 	
  -moz-animation: example1 15s linear infinite;
  -webkit-animation: example1 15s linear infinite;
  animation: example1 15s linear infinite;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes example1 {
  0%   { -moz-transform: translateX(100%); }
  100% { -moz-transform: translateX(-100%); }
@@ -41,13 +41,13 @@
 }
 @keyframes example1 {
  0%   { 
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
+ -moz-transform: translateX(100%); 
+ 
  transform: translateX(100%); 		
  }
  100% { 
  -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* 
  transform: translateX(-100%); 
  }
 }
@@ -86,12 +86,12 @@
  line-height: 50px;
  text-align: left;
 
- /* Apply animation to this element */	
+	
  -moz-animation: example4 10s ease-out;
  -webkit-animation: example4 10s ease-out;
  animation: example4 10s ease-out;
 }
-/* Move it (define the animation) */
+
 @-moz-keyframes example4 {
  0%   { -moz-transform: translateX(200%); }
  100% { -moz-transform: translateX(0%); }
@@ -102,8 +102,7 @@
 }
 @keyframes example4 {
  0%   { 
- -moz-transform: translateX(200%); /* Firefox bug fix */
- -webkit-transform: translateX(200%); /* Firefox bug fix */
+ -moz-transform: translateX(200%);  Firefox bug fix */
  transform: translateX(200%); 		
  }
  100% { 
